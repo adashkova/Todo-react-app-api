@@ -1,0 +1,28 @@
+.todo_items {
+  display: flex;
+
+  width: 385px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: #345b63 solid 2px;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+.checked {
+  text-decoration: line-through;
+  color: #696f70;
+}
+.no_records {
+  padding: 30px 10px;
+  color: #696f70;
+  font-size: 1rem;
+}

@@ -1,0 +1,30 @@
+button {
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.btn_add {
+  background-color: #152d35;
+  height: 48px;
+}
+.btn_clear {
+  color: #ff0000;
+  border: #f13232 1px solid;
+  min-width: 80px;
+  max-height: 50px;
+}
+
+.btn_add:hover {
+  background-color: #345b63;
+}
+.btn_clear:hover {
+  background-color: #f7322f;
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+.filters {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.filters p {
+  margin-right: 20px;
+}
+.filters p:hover {
+  color: #345b63;
+  cursor: pointer;
+}
+
+.active {
+  border-top: 2px solid #152d35;
+  color: #22738f;
+}

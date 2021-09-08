@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.container {
+  width: 600px;
+  padding: 10px;
+  margin: 15% auto;
+  background: #d4ecdd;
+}
+
+h1 {
+  color: #152d35;
+  margin-bottom: 20px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  max-width: 600px;
+  min-height: 400px;
+  box-shadow: 6px 4px 13px 1px rgba(34, 60, 80, 0.3);
+  flex-direction: column;
+  padding: 20px;
+  border: 1px dashed #e2e2e2;
+}
